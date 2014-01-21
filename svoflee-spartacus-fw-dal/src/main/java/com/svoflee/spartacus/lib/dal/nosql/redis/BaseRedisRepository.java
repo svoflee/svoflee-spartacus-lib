@@ -16,20 +16,14 @@
  */
 
 package com.svoflee.spartacus.lib.dal.nosql.redis;
-import org.springframework.stereotype.*;
-import javax.persistence.*;
-import org.springframework.beans.factory.annotation.*;
+
 import com.svoflee.spartacus.core.log.Logger;
-
-
-
-
 
 /**
  * BaseRedisRepository 是
- *
+ * 
  * @author <a href="mailto:svoflee@gmail.com">svoflee@gmail.com</a>
- * @since 1.0.0 
+ * @since 1.0.0
  * @version 1.0.0
  */
 public class BaseRedisRepository {
@@ -37,6 +31,3 @@ public class BaseRedisRepository {
     private static final Logger log = Logger.getLogger(BaseRedisRepository.class.getName());
 
 }
-
-
-
