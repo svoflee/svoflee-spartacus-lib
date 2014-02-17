@@ -27,7 +27,11 @@ import redis.clients.jedis.JedisPool;
 import com.svoflee.spartacus.lib.dal.nosql.redis.JedisTemplate;
 
 /**
- * 任务管理，支持任务的安排与取消。
+ * JobManager 是任务管理，支持任务的安排与取消
+ * 
+ * @author <a href="mailto:svoflee@gmail.com">svoflee@gmail.com</a>
+ * @since 1.0.0
+ * @version 1.0.0
  */
 public class JobManager {
 

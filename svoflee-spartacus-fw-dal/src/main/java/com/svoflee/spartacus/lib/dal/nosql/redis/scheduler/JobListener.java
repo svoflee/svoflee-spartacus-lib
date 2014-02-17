@@ -31,7 +31,11 @@ import com.svoflee.spartacus.lib.dal.nosql.redis.JedisTemplate;
 import com.svoflee.spartacus.lib.dal.nosql.redis.JedisTemplate.JedisActionNoResult;
 
 /**
- * 阻塞接收任务的Runnable.
+ * JobListener 是阻塞接收任务的Runnable.
+ * 
+ * @author <a href="mailto:svoflee@gmail.com">svoflee@gmail.com</a>
+ * @since 1.0.0
+ * @version 1.0.0
  */
 public class JobListener implements Runnable {
 

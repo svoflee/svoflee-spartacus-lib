@@ -23,6 +23,13 @@ import redis.clients.jedis.Protocol;
 
 import com.svoflee.spartacus.core.utils.serialization.JsonMapper;
 
+/**
+ * RedisUtils 是
+ * 
+ * @author <a href="mailto:svoflee@gmail.com">svoflee@gmail.com</a>
+ * @since 1.0.0
+ * @version 1.0.0
+ */
 public class RedisUtils {
 
     private static final String COLON = ":";
